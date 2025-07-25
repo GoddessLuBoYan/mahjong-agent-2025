@@ -1,6 +1,9 @@
 # Botzone本地环境
 
 基于 https://github.com/ailab-pku/botzone-local.git 做的特化本地化修改，仅使用复式麻将环境，不使用容器，并且支持智能体不退出直接自动重置状态
+
+（要求裁判通过stdin传入国标麻将的初始化命令"0 x x"开始一局新的游戏时，智能体的行为与新创建一个智能体进程时的行为一致）
+
 裁判代码基于 https://github.com/ailab-pku/Chinese-Standard-Mahjong.git/judge 进行修改，将进程改为了lib，显著提高运行效率
 
 使用方法：
